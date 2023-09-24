@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page CCXP</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="logoccxp.svg" width="150px">
+    </header>
+    <section class="container">
+        <div id="text">
+            <h1>REVIVA O ÉPICO</h1>
+            <span><strong>DE 01 A 04 DE DEZEMBRO</strong></span>
+            <p>
+                Você consegue sentir? É aquela sensação de<br>
+                finalmente poder falar em voz alta: "estamos<br>
+                em casa". Sim, em dezembro de 2022,<br>
+                teremos a volta da CCXP física. Mas não será<br>
+                qualquer CCXP, vai ser a maior de todos os<br>
+                tempos. Prepare-se para visitar seus<br>
+                universos favoritos, explorar o Artists' Valley,<br>
+                se emocionar nos auditórios e encontrar<br>
+                aventuras épicas a cada passo pelos nossos<br>
+                corredores.
+            </p>
+        </div>
+
+        <div id="media">
+            <div class="contador">
+                <div>
+                    <h2 id="dia"> 00 </h2>
+                    <span>D</span>
+                </div>
+                <div>
+                    <h2 id="hora"> 00 </h2>
+                </div>
+                <div>
+                    <h2 id="min"> 00 </h2>
+                </div>
+                <div>
+                    <h2 id="seg"> 00 </h2>
+                </div>
+            </div>     
+                
+           
+            <div class="video">
+                <h2>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h2>
+                <video width="700px" control autoplay loop muted><source src="Arlequina.mp4" type="video/mp4"></video>
+            </div>
+        </div>
+        
+    </section>
+
+    <h3>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3> 
+    
+    <footer>
+        <div id="rodape">
+            <img src="quin.svg" onmouseover="highLightCard('#quinta')" onmouseout="highLightCard('#quinta')" id="quinta">
+            <img src="sext.svg" onmouseover="highLightCard('#sexta')" onmouseout="highLightCard('#sexta')" id="sexta">
+            <img src="saba.svg" onmouseover="highLightCard('#sabado')" onmouseout="highLightCard('#sabado')" id="sabado">
+            <img src="domi.svg" onmouseover="highLightCard('#domingo')" onmouseout="highLightCard('#domingo')" id="domingo">
+        </div>
+        <div id="botao">
+            <button>GARANTA O SEU!</button>
+        </div>
+    </footer>
+    <div class="email">
+        <form action="https://www.facebook.com/">
+        <input type="email" placeholder="Digite seu e-mail" required="required">
+        <button type="submit" id="email">Enviar</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+
+*{
+    margin: 0;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    padding: 10px;
+    background-color: #FFD900;
+    height: 70px;
+}
+
+
+#text {
+    background-color: #514988;
+    padding: 15px; 
+    text-align: center;
+    width: 500x;
+    height: 500px;
+}
+
+section {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+h1 {
+    color: #FFD900;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+span {
+    color: white;
+    margin-top: 5px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+
+.video {
+    text-align: center;
+    padding: 15px;
+}
+
+.video h2{
+    color: #E33881;
+    margin-top: 30px;
+   
+}
+
+
+.contador {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: -60px;
+    text-align: center;
+}
+
+.contador h2 {
+    color: #514988;
+    font-size: 45px;
+    margin-top: 0px;
+
+}
+
+footer { 
+    display: flex;
+    flex-direction: row;
+}
+
+h3{
+    color: #F3C61F;
+    margin: 10px 0px 10px 10px;
+}
+
+footer button {
+    background-color: #514988;
+    width: 200px;
+    color: #FFFFFF;
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+
+#botao { 
+    margin: auto;
+}
+
+button:hover {
+    background-color: #362a80;
+    cursor: pointer;
+    color: #F3C61F;
+}
+
+
+.highLightCard {
+    box-shadow: 10px 10px 10px 10px grey ;
+    cursor: pointer;
+}
+
+.email {
+    padding: 10px;
+    background-color: #FFD900;
+    height: 70px;
+    display: flex;
+    margin: auto;
+}
+
+#email {
+    background-color: #514988;
+    width: 200px;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+
+.email input {
+    width: 200px;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
